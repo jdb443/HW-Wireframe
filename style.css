@@ -1,0 +1,86 @@
+/*Jonathan Behar CSS File*/
+
+/* Body */
+body {
+    background-color: #777;
+    color:#777;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin: 10px auto;
+}
+
+/* Header */
+header {
+    background-color:#ebebeb;
+    height: 40px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Navigation Bar*/
+nav {
+    background-color: #ebebeb;
+    height: 40px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Section */
+section {
+    float: left;
+    background-color: #ebebeb;
+    width: 495px;
+    padding: 30px 10px 0px 10px;
+    margin-top: 10px;
+}
+
+
+article {
+    background-color: #777;
+    color: #ebebeb;
+    padding: 10px;
+    margin: 20px 0px 10px 0px;
+}
+
+#header {
+    background-color: #ebebeb;
+    padding: 1px;
+    margin: 10px;
+    color: #777;
+}
+
+#paragraph {
+    background-color: #ebebeb;
+    color: #777;
+    margin: 10px;
+    padding: 1px;
+}
+
+/* Aside Bar*/
+aside {
+    float: right;
+    background-color: #ebebeb;
+    height: 210px;
+    width: 360px;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+/* Footer*/
+footer {
+    background-color: #ebebeb;
+    margin-top: 20px;
+    height: 40px;
+    padding: 20px;
+}
+
+/* Clearfix bug fix */
+.clearFix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+    }
